@@ -185,7 +185,7 @@ fileprivate extension UILabel {
 }
 
 
-fileprivate extension UILabel {
+public extension UILabel {
 	
 	/// Get attribute for the given key (if any).
 	func getAttribute<AttributeType>(
